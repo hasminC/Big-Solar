@@ -1,0 +1,913 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #404040;
+	line-height: 1.5;
+}
+#wrapper{
+	width: 940px;
+	margin: auto;
+	overflow: hidden;
+}
+a{
+	color: #ff6e00;
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+}
+header{
+	color: #ff6e00;
+	overflow: hidden;
+	padding-top: 1em;
+}
+header h1, header nav{
+	width: 50%; 
+	float: left;
+}
+header h1{
+	margin-top: 0;
+}
+header nav{
+	box-sizing: border-box;
+	/*padding-left: 18%;*/
+	text-align: right;
+	/*position: relative;
+	right: -17em;*/
+}
+header nav a{
+	display: inline-block;
+	padding: 0 10px;
+}
+header nav a.current{
+	color: #737373;
+}
+#banner{
+	width: 100%;
+	height: 470px;
+	background: url(../images/banner1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#contact_banner{
+	width: 100%;
+	height: 470px;
+	background: url(../images/contact_banner.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#contact_banner h2{
+	margin-top: 0;
+	color: #fff;
+	font-weight: normal;
+	font-size: 22pt;
+	padding: 30px 40px;
+}
+#banner p{
+	margin-top: 0;
+}
+#contactOffer{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	color: #fff;
+	background: #ff6e00;
+	position: relative;
+	top: -80px;
+	left: 80%;
+}
+#contactOffer p{
+	padding: 25px 15px;
+	text-align: center;
+	font-size: 12pt;
+}
+#contactOffer p span{
+	text-transform: uppercase;
+	font-size: 14pt;
+	font-weight: 900;
+}
+#installStat{
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	color: #fff;
+	background: #ff6e00;
+	position: relative;
+	top: 120px;
+	left: 50px;
+}
+#installStat p{
+	padding: 10px 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12pt;
+}
+#installStat p span{
+	font-size: 20pt;
+	font-weight: 900;
+}
+#huisgemaakte{
+	text-align: right;
+	color: #fff;
+	width: 40%;
+	position: relative;
+	top: -180px;
+	left: 510px;
+	font-size: 12pt;
+	font-weight: 400;
+}
+#huisgemaakte h2{
+	font-size: 34pt;
+	margin-bottom: 20px;
+	line-height: 1;
+	margin-top: 35px;
+}
+#huisgemaakte ul{
+	padding-right: 10px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+#huisgemaakte li{
+	padding: 5px 0;
+}
+#icons{
+	width: 99%;
+	box-sizing: border-box;
+	padding: 30px 10px 30px 30px;
+	margin: 20px auto 30px auto;
+	overflow: hidden;
+	-webkit-box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.56), -1px -1px 12px -5px rgba(0,0,0,0.56);
+	-moz-box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.56), -1px -1px 12px -5px rgba(0,0,0,0.56);
+	box-shadow: 4px 4px 17px -6px rgba(0,0,0,0.56), -1px -1px 12px -5px rgba(0,0,0,0.56);
+}
+#icons div{
+	height: 38px;
+	float: left;
+	padding-left: 45px;
+	padding-top: 8px;
+	padding-bottom: 2px;
+	font-size: 12pt;
+	background-repeat: no-repeat;
+	color: #737373;
+	margin-right: 0;
+	width: 13%;
+}
+#icon1{
+	background: url(../images/icon1.png);
+	width: 17% !important;
+}
+#icon2{
+	background: url(../images/icon2.png);
+}
+#icon3{
+	background: url(../images/icon3.png);
+	width: 15% !important; 
+}
+#icon4{
+	background: url(../images/icon4.png);
+}
+#icon5{
+	background: url(../images/icon5.png);
+}
+#callToAction{
+	background: #d2dcc8;
+	padding: 10px;
+	width: 100%;
+	font-size: 16pt;
+	box-sizing: border-box;
+}
+#callToAction p{
+	text-align: center;
+}
+#callToAction strong{
+	font-weight: 400;
+}
+#poweredBy{
+	background: #f0f0f0;
+	padding: 35px;
+	width: 100%;
+	font-size: 12pt;
+	box-sizing: border-box;
+	margin: 30px 0;
+	overflow: hidden;
+}
+#poweredBy img, #poweredBy p{
+	float: left;
+	position: relative;
+}
+#poweredBy p{
+	top: 15px;
+	left: 10px;
+	font-weight: bold;
+}
+#triodos{
+	top: 30px;
+	left: 100px;
+}
+#amsterdams{
+	left: 170px;
+}
+#sdoen{
+	top: 5px;
+	left: 230px;
+}
+#waaromBigSolar{
+	overflow: hidden;
+}
+#waaromBigSolar div{
+	width: 50%;
+	height: 470px;
+	float: left;
+}
+#postcodeCheck{
+	background: url(../images/dog.jpg);
+}
+#calculateSavings{
+	background: #f5ebdc;
+	box-sizing: border-box;
+	padding: 40px 50px;
+}
+#calculateSavings h2{
+	font-size: 1.2em;
+}
+#calculateSavings a{
+	color: #ff6e00;
+}
+#postcodeCheck p{
+	width: 160px;
+	height: 160px;
+	border-radius: 80px;
+	color: #fff;
+	background: #ff6e00;
+	position: relative;
+	top: 20px;
+	left: 270px;
+	box-sizing: border-box;
+	padding: 30px 20px;
+	text-align: center;
+	line-height: 1.2;
+}
+#postcodeCheck strong, #solarPanelVideo strong, #calculateSavings strong,
+#advantages strong
+{
+	font-size: 16pt;
+}
+#solarPanelVideo{
+	width: 100%;
+	box-sizing: border-box;
+	background: #dcebeb;
+	padding: 30px;
+	text-align: center;
+	margin: 30px 0;
+}
+#savingAndOffers{
+	overflow: hidden;
+	width: 100%;
+	height: 330px;
+	margin-bottom: 30px;
+}
+#savings, #offer1{
+	height: 330px;
+	float: left;
+	overflow: hidden;
+}
+#savings{
+	background: #d2dcc8;
+	width: 790px;
+}
+#savingsIcon{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+#savingsIcon h2{
+	font-size: 22pt;
+	font-weight: normal;
+	padding: 30px 0 20px 0;
+}
+#savingsCalculator{
+	width: 70%;
+	float: left;
+	text-align: center;
+}
+#savingsCalculator h3, #savingsCalculator p{
+	font-size: 16pt;
+	font-weight: normal;
+	margin-top: 30px;
+}
+#slider{
+	text-align: center;
+	background: url(../images/slider_bar.png);
+	width: 365px;
+	height: 74px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin: auto;
+}
+#aantalZonnepanelen, #besparing{
+	font-size: 20pt;
+	font-weight: bold;
+	color: #ff6e00;
+}
+#offer1{
+	width: 150px;
+	background: url('../images/wood.jpg');
+	color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+	text-align: center;
+}
+#offer1 p{
+	font-size: 14pt;
+}
+#offer1 div{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background: #ff6e00;
+	font-size: 14pt;
+	font-weight: bold;
+	position: relative;
+	top: 30px;
+}
+#offer1 div a{
+	display: block;
+	color: #fff;
+	padding: 20px 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+#advantages{
+	width: 100%;
+	background: url(../images/mother_son.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 470px;
+	box-sizing: border-box;
+	padding: 40px 50px;
+}
+#advantages h2, #advantages ul, #advantages strong{
+	width: 45%;
+	margin-left: 55%;
+}
+#advantages h2{
+	font-size: 20pt;
+	font-weight: normal;
+}
+#advantages ul{
+	padding-left: 20px;
+	font-size: 14pt;
+}
+#tooGood{
+	margin: 30px 0;
+	overflow: hidden;
+}
+#tooGood div{
+	width: 50%;
+	float: left;
+	height: 470px;
+}
+#leesHoe{
+	background: #eaebe6;
+	padding: 40px 60px;
+	box-sizing: border-box;
+	font-size: 14pt;
+	line-height: 2;
+}
+#leesHoe h2{
+	font-size: 20pt;
+	font-weight: normal;
+}
+#leesHoe strong{
+	font-size: 16pt;
+}
+#offer2{
+	background: url(../images/baby.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#offer2 div{
+	width: 180px;
+	height: 180px;
+	border-radius: 90px;
+	color: #fff;
+	background: #ff6e00;
+	text-align: center;
+	position: relative;
+	top: 250px;
+	left: 250px;
+}
+#offer2 div span{
+	text-transform: uppercase;
+	font-size: 18pt;
+	font-weight: bold;
+}
+#offer2 div p{
+	padding: 5px 15px;
+}
+#salesPitch{
+	color: #ff6e00;
+	font-size: 20pt;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 40px 0;
+}
+#contactFormArea{
+	background: #f5ebdc;
+	width: 100%;
+	overflow: hidden;
+	padding: 60px;
+	box-sizing: border-box;
+}
+#contactFormArea h2{
+	margin-top: 0;
+	margin-bottom: 40px;
+}
+#contactForm label, #contactForm input, #contactForm textarea{
+	float: left;
+}
+#contactForm label{
+	width: 30%;
+	margin: 20px 0;
+	clear: left;
+}
+#contactForm input, #contactForm textarea,
+#contactForm input:focus, #contactForm textarea:focus{
+	width: 60%;
+	margin: 20px 0;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #ff6e00;
+	outline: 0;
+}
+#contactForm input[type=submit]{
+	background: #ff6e00;
+	color: #fff;
+	border-radius: 30px;
+	width: 170px;
+	padding: 10px;
+	border-bottom: 2px outset #ff6e00;
+	margin-left: 30%;
+}
+#locationInfo{
+	margin: 30px 0;
+	background: #dcebeb;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 50px;
+}
+#locationInfo h2{
+	margin-top: 0;
+}
+#address{
+	width: 50%;
+	float: left;
+}
+footer{
+	background: #ff6e00;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 15px;
+	box-sizing: border-box;
+	width: 100%;
+}
+footer img{
+	width: 150px;
+	padding-bottom: 5px;
+}
+footer a{
+	color: #fff;
+}
+
+@media screen and (max-width: 939px) {
+	#wrapper{
+		width: 95%;
+	}
+	header nav{
+		padding-left: 8%;
+	}
+	#banner{
+		height: 370px;
+	}
+	#contact_banner{
+		height: 440px;
+	}
+	#contactOffer{
+		left: 75%;
+	}
+	#installStat {
+		width: 160px;
+		height: 160px;
+		top: 100px;
+	}
+	#installStat p{
+		font-size: 10pt;
+	}
+	#huisgemaakte{
+		left: 430px;
+	}
+	#huisgemaakte h2{
+		font-size: 28pt;
+	}
+	#icons div{
+		width: 25% !important;
+		margin-bottom: 10px;
+	}
+	#tooGood>div{
+		height: 350px;
+	}
+	#leesHoe{
+		padding: 20px 30px;
+		line-height: 1.5;
+	}
+	#offer2 div{
+		top: 150px;
+		left: 150px;
+	}
+	#advantages{
+		padding: 10px 50px;
+		height: 350px;
+	}
+	#advantages h2 {
+		font-size: 16pt;
+	}
+	#advantages h2, #advantages ul, #advantages strong {
+		width: 50%;
+		margin-left: 50%;
+	}
+	#calculateSavings{
+		padding: 20px 30px;
+	}
+	#postcodeCheck p{
+		left: 160px;
+	}
+	#savingAndOffers{
+		height: 430px;
+	}
+	#savings, #offer1{
+		width: 100%;
+		float: none;
+	}
+	#offer1{
+		background-size: cover;
+	}
+	#offer1 p{
+		width: 60%;
+		float: left;
+	}
+	#offer1 div{
+		float: left;
+		top: -15px;
+		margin-left: 20%;
+		width: 90px;
+		height: 90px;
+		font-size: 12pt;
+	}
+}
+@media screen and (max-width: 800px){
+	#contact_banner{
+		height: 380px;
+	}
+	header nav{
+		padding-left: 0;
+	}
+	#huisgemaakte{
+		left: 430px;
+	}
+	#poweredBy p{
+		width: 100%;
+		position: static;
+	}
+	#poweredBy img{
+		width: 30%;
+		float: left;
+	}
+	#triodos{
+		left: 0;
+	}
+	#amsterdams{
+		left: 25px;
+	}
+	#sdoen{
+		left: 50px;
+		top: -10px;
+	}
+	
+}
+@media screen and (max-width: 768px) {
+	#contact_banner{
+		height: 370px;
+	}
+	#huisgemaakte{
+		left: 410px;
+	}
+}	
+@media screen and (max-width: 736px){
+	#contact_banner{
+		height: 350px;
+	}
+	#huisgemaakte{
+		left: 390px;
+	}
+	#contactOffer{
+		left: 70%;
+	}
+}
+@media screen and (max-width: 640px) {
+	#contact_banner{
+		height: 310px;
+	}
+	#address, #locationInfo img{
+		width: 100%;
+	}
+	#contactFormArea{
+		padding: 60px 20px 60px 60px;
+	}
+	header nav, header h1{
+		float: none;
+		width: auto;
+		margin: 0 auto 20px auto;
+		text-align: center;
+	}
+	#banner{
+		height: 275px;
+	}
+	#huisgemaakte{
+		left: 340px;
+		line-height: 1;
+		font-size: 10pt;
+	}
+	#huisgemaakte h2{
+		font-size: 20pt;
+	}
+	#icons div{
+		width: 40% !important;
+	}
+	
+	#waaromBigSolar div{
+		width: 100%;
+		float: none;
+		height: auto;
+	}
+	#calculateSavings{
+		padding: 30px 25px;
+	}
+	#postcodeCheck{
+		background-size: 100%;
+		background-position: bottom;
+		height: 300px !important;
+	}
+	#postcodeCheck p{
+		left: 10px;
+		top: 20px;
+	}
+	#savingAndOffers{
+		height: auto;
+	}
+	#savings, #offer1{
+		width: 100%;
+		float: none;
+		height: auto;
+		text-align: center;
+	}
+	#savingsIcon, #savingsCalculator{
+		float: none;
+		width: 100%;
+	}
+	#slider{
+		width: 90%;
+		background-size: 100%;
+	}
+	#offer1 div{
+		float: left;
+		top: 0;
+		margin-left: 20%;
+	}
+	#advantages{
+		padding: 10px;
+		height: 500px;
+	}
+	#advantages h2, #advantages ul, #advantages strong{
+		width: 100%;
+		margin-left: 0;
+	}
+	#advantages h2{
+		font-size: 16pt;
+		margin-top: 310px;
+	}
+	#advantages ul, #advantages strong{
+		font-size: 12pt;
+	}
+	#tooGood>div{
+		width: 100%;
+		float: none;
+	}
+	#leesHoe{
+		height: 200px !important;
+		padding: 10px 30px;
+	}
+	#leesHoe h2{
+		font-size: 16pt;
+	}
+	#leesHoe p{
+		font-size: 12pt;
+	}
+	#offer2{
+		height: 320px !important;
+	}
+	#offer2 div{
+		width: 160px;
+		height: 160px;
+		top: 135px;
+		left: 350px;
+	}
+	#offer2 div span {
+		font-size: 14pt;
+	}
+	#offer2 div p{
+		padding: 0 15px;
+	}
+}
+@media screen and (max-width: 600px){
+	#contact_banner{
+		height: 290px;
+	}
+	#huisgemaakte{
+		left: 300px;
+	}
+	#advantages h2{
+		margin-top: 280px;
+	}
+	#advantages{
+		height: 470px;
+	}
+	#leesHoe{
+		height: 270px !important;
+	}
+}
+@media screen and (max-width: 568px){
+	#contact_banner{
+		height: 270px;
+	}
+	#contactOffer{
+		left: 65%;
+	}
+	#banner{
+		height: 570px;
+	}
+	#installStat{
+		border-radius: 0;
+		width: 100%;
+		margin: 0;
+		left: 0;
+		top: 225px;
+		height: auto;
+	}
+	#huisgemaakte {
+		width: 100%;
+		padding: 20px 30px 20px 30px;
+		box-sizing: border-box;
+		top: 205px;
+		left: 0;
+		color: #676a64;
+		background: #f5ebdc;
+		text-align: left;
+	}
+	#huisgemaakte h2{
+		margin-top: 0;
+	}
+	#huisgemaakte ul{
+		direction: ltr;
+		padding-left: 15px;
+		padding-right: 0;
+	}
+	#icons div{
+		width: 38% !important;
+		padding-left: 47px;
+	}
+}
+@media screen and (max-width: 480px) {
+	#contact_banner{
+		height: 230px;
+	}
+	#contactOffer{
+		left: 55%;
+		top: -100px;
+	}
+	#contactFormArea{
+		padding: 40px;
+	}
+	#contactForm label, #contactForm input, #contactForm textarea{
+		float: none;
+		display: block;
+	}
+	#contactForm input, #contactForm textarea{
+		width: 95%;
+	}
+	#contactForm input[type=submit]{
+		margin: auto;
+	}
+	#advantages h2{
+		margin-top: 240px;
+	}
+	#offer2 div{
+		left: 270px;
+	}
+	#offer1 p {
+		width: 50%
+	}
+	#leesHoe{
+		height: 230px !important;
+	}
+}
+@media screen and (max-width: 414px){
+	#contact_banner{
+		height: 180px;
+	}
+	#contactOffer{
+		top: -120px;
+	}
+	#offer2 div{
+		left: 220px;
+	}
+}
+@media screen and (max-width: 375px){
+	#installStat{
+		top: 175px;
+	}
+	#huisgemaakte{
+		top: 160px;
+	}
+	#offer1 p{
+		width: 45%;
+	}
+	#advantages{
+		height: 430px;
+	}
+	#advantages h2 {
+		margin-top: 190px;
+	}
+	#offer2 div{
+		left: 180px;
+	}
+}
+@media screen and (max-width: 340px) {
+	#contact_banner{
+		height: 160px;
+	}
+	#contactOffer{
+		display: none;
+	}
+	#banner{
+		height: 550px;
+	}
+	#installStat{
+		top: 150px;
+	}
+	#huisgemaakte {
+		top: 130px;
+	}
+	header nav span{
+		display: none;
+	}
+	header nav a{
+		display: block;
+	}
+	#icons div{
+		width: 80% !important;
+		padding-left: 50px;
+	}
+	#poweredBy{
+		text-align: center;
+	}
+	#poweredBy img, #poweredBy p{
+		float: none;
+		position: static;
+	}
+	#poweredBy img{
+		width: 70%;
+		margin: 10px 0;
+	}
+	#postcodeCheck p{
+		left: 130px;
+	}
+	#offer1 p{
+		width: 40%;
+	}
+	#offer1 div{
+		top: 20px;
+	}
+	#advantages h2{
+		margin-top: 170px;
+	}
+	#advantages{
+		height: 400px;
+	}
+	#leesHoe{
+		height: 300px !important;
+	}
+	#offer2 div{
+		top: 125px;
+		left: 130px;
+	}
+}
